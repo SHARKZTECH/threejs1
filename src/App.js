@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import Model from "./Model";
+import Model from "./Model"; /* highlight-line */
 
 export default function App() {
   return (
